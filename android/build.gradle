@@ -2,7 +2,7 @@ group 'dev.moaz.dash_bubble'
 version '1.0-SNAPSHOT'
 
 buildscript {
-    ext.kotlin_version = '1.7.10'
+    ext.kotlin_version = '1.9.0'
     repositories {
         google()
         mavenCentral()
@@ -53,6 +53,7 @@ dependencies {
     implementation "androidx.core:core-ktx:1.9.0"
     implementation 'androidx.localbroadcastmanager:localbroadcastmanager:1.1.0'
     implementation("io.github.torrydo:floating-bubble-view:0.5.3")
+    classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
 
 //    implementation "androidx.lifecycle:lifecycle-process:$lifecycle_version"
 //    implementation "androidx.lifecycle:lifecycle-common:$lifecycle_version"
