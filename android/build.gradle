@@ -2,7 +2,7 @@ group 'dev.moaz.dash_bubble'
 version '1.0-SNAPSHOT'
 
 buildscript {
-    ext.kotlin_version = '1.9.0'
+    ext.kotlin_version = '2.0'
     repositories {
         google()
         mavenCentral()
